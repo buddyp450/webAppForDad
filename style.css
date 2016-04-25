@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+}
+
+#banner, #header, #form {
+    dispay: flex;
+    flex-direction: column;
+}
+
+#banner {
+    height: 150px;
+}
+
+.hidden {
+    display: none;
+}
+
+#generatePdf {
+    height: 100px;
+    background-color: #f0f0f0;
+    color: #000000;
+    width: 100%;
+}
+
+#banner-bg {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    background-image: url('http://www.realcourage.org/wp-content/uploads/2009/09/flag-banner-orig.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+}
+
+input {
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#forms {
+    display: flex;
+    flex-direction: row;
+}
+
+#leftForm, #rightForm {
+    padding: 10px;
+    align-self: flex-start;
+}
+
+#leftForm {
+    align-self: flex-start;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    width: 100%;
+}
+
+#address {
+    float: left;
+}
+
+#contact {
+    float: right;
+}

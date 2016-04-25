@@ -1,0 +1,106 @@
+<html>
+<head>
+    <title>First Carolina Mortgage</title>
+
+    <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="forms" class="centered">
+        <div id="leftForm" class="col-md-5">
+            <label class="col-md-6">Appraised Value</label><input id="appraisedValue" type="text" value="0"/><br/>
+            <label class="col-md-6">Purchase Price</label><input id="purchasePrice" type="text" value="0"/><br/>
+            <label class="col-md-6">Loan Amount</label><input id="loanAmount" type="text" value="0" value="0"/><br/>
+            <label class="col-md-6">UFMIP</label><input id="UFMIP" type="text" value="0" /><br/>
+            <label class="col-md-6">USDA Fee</label><input id="usdaFee" type="text" value="0" /><br/>
+            <label class="col-md-6">VA Funding Fee</label><input id="vaFundingFee" type="text" value="0" /><br/>
+            <label class="col-md-6">Total Loan Amt.</label><input id="totalLoanAmt" type="text" value="0" /><br/>
+            <br/>
+            <label class="col-md-6">LTV</label><input id="LTV" type="text" value="0" /><br/>
+            <br/>
+            <label class="col-md-6">Down Payment</label><input id="downPayment" type="text" value="0" /><br />
+            <label class="col-md-6">Closing Cost</label><input id="closingCost" type="text" value="0" /><br/>
+            <label class="col-md-6">Tax/Ins Escrow</label><input id="taxInsEscrow" type="text" value="0" /><br/>
+            <label class="col-md-6">Lender Credit</label><input id="lenderCredit" type="text" value="0" /><br/>
+            <br/>
+            <label class="col-md-6">Total to Close</label><input id="totalToClose" type="text" value="0" /><br/>
+            <br/>
+            <div><label class="col-md-2">Rate:</label><input id="rate" type="text" value="0" class="col-md-3"/><label class="col-md-2">Term:</label><input id="term" type="text" value="0" class="col-md-3"/></div><br/>
+            <br/>
+            Payments:<br/>
+            <label class="col-md-6">P&I</label><input id="pI" type="text" value="0" /><br/>
+            <label class="col-md-6">HO Insurance</label><input id="hoInsurance" type="text" value="0" /><br/>
+            <label class="col-md-6">Monthly MI</label><input id="monthlyMi" type="text" value="0" /><br/>
+            <label class="col-md-6">Monthly Taxes</label><input id="monthlyTaxes" type="text" value="0" /><br/>
+            <label class="col-md-6">Total Payment</label><input id="totalPayment" type="text" value="0" /><br/>
+            <br/>
+            NMLS#110216
+        </div>
+        <div id="rightForm" class="col-md-5">
+            CLOSING COST <br/>
+            <label class="col-md-6">Origination Fee</label><input id="originationFee" type="text" value="0" /><br/>
+            <label class="col-md-6">Attorney</label><input id="Attorney" type="text" value="0" /><br/>
+            <label class="col-md-6">Title Insurance</label><input id="titleInsurance" type="text" value="0" /><br/>
+            <label class="col-md-6">Appraisal</label><input id="Appraisal" type="text" value="0" /><br/>
+            <label class="col-md-6">Credit Report</label><input id="creditReport" type="text" value="0" /><br/>
+            <label class="col-md-6">Survey</label><input id="Survey" type="text" value="0" /><br/>
+            <label class="col-md-6">Record Docs</label><input id="recordDocs" type="text" value="0" /><br/>
+            <label class="col-md-6">Discount Pts</label><input id="discountPts" type="text" value="0" /><br/>
+            <label class="col-md-6">App Fee</label><input id="appFee" type="text" value="0" /><br/>
+            <label class="col-md-6">Commit. Fee</label><input id="commitFee" type="text" value="0" /><br/>
+            <label class="col-md-6">Tax Service</label><input id="taxService" type="text" value="0" /><br/>
+            <label class="col-md-6">Termite Rep</label><input id="termiteRep" type="text" value="0" /><br/>
+            <label class="col-md-6">Flood Cert</label><input id="floodCert" type="text" value="0" /><br/>
+            <label class="col-md-6">Title Abstract</label><input id="titleAbstract" type="text" value="0" /><br/>
+            <label class="col-md-6">Misc:</label><input id="misc" type="text" value="0" /><br/>
+            <br/>
+            <label class="col-md-6">Total Closing Cost</label><input id="totalClosingCost" type="text" value="0" /><br/>
+            <br/>
+            Escrow for Taxes/Insurance:<br/>
+            <div class="col-md-12">
+                <label class="col-md-2">Monthly Taxes</label>
+                <input id="monthlyTaxes" type="text" value="0" class="col-md-2" />
+                <label class="col-md-2">Num. of Months</label>
+                <input id="numOfMonths" type="text" value="0" class="col-md-2" />
+                <label class="col-md-2">Tax Total</label>
+                <input id="taxTotal" type="text" value="0" class="col-md-2" />
+            </div>
+            <br/>
+            <label class="col-md-6">1srYr HO Ins</label><input id="1sryrHoIns" type="text" value="0"/><br/>
+            <label class="col-md-6">2Mos.Ho INS</label><input id="2mosHoIns" type="text" value="0" /><br/>
+            <label class="col-md-6">Interest Per Day</label><input id="interestPerDay" type="text" value="0"/><br/>
+            <label class="col-md-6">Days</label><input id="Days" type="text" value="0"/><br/>
+            <br/>
+            <label class="col-md-2">Total</label><input id="Total" type="text" value="0" /><br/>
+        </div>
+    </div>
+    <div class="center">
+        <button id="generatePdf" onclick="makePDF();">GENERATE PDF</button>
+    </div>
+    <div id="footer" class="hidden">
+        <div id="address">
+            102 DOLLEY MADISON ROAD <br/>
+            GREENSBORO, NC 27410 <br/>
+            C. GRADY PATTON NMLS#110216 <br/>
+        </div>
+        <div id="contact">
+            OFFICE 336-312-5300 <br/>
+            FAX 336-852-5572 <br/>
+            gpatton63@gmail.com <br/>
+        </div>
+    </div>
+    <script src="bundle.js"></script>
+    <script>
+
+    </script>
+    </body>
+</html>

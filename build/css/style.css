@@ -1,0 +1,97 @@
+html, body {
+    height: 100%;
+    background-color: #1b2b34;
+    color: #cdd3de;
+}
+
+#banner, #header, #form {
+    dispay: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+#banner {
+    height: 150px;
+}
+
+#banner-bg {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    background-image: url('http://www.realcourage.org/wp-content/uploads/2009/09/flag-banner-orig.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+}
+
+input {
+    background-color: #1b2b34;
+    color: #cdd3de;
+}
+
+.centered {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+
+
+#forms {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+#leftForm, #rightForm {
+    padding: 10px;
+    -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+            align-self: flex-start;
+}
+
+#leftForm {
+    -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+            align-self: flex-start;
+}
+
+#footer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-size: 12px;
+    width: 100%;
+}
+
+#address {
+    float: left;
+}
+
+#contact {
+    float: right;
+}
